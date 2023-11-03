@@ -1,0 +1,330 @@
+Round 1: Node A
+Current DV matrix: 
+0	2	999	999	1	
+2	0	5	999	999	
+999	5	0	4	999	
+999	999	4	0	1	
+1	999	999	1	0	
+Last DV matrix: 
+0	2	999	999	1	
+2	0	5	999	999	
+999	5	0	4	999	
+999	999	4	0	1	
+1	999	999	1	0	
+Updated from last DV matrix or the same? Not Updated
+
+Sending DV to node B
+Node B received DV from Node A
+New DV at Node B is -	2	0	5	999	3	
+
+Sending DV to node E
+Node E received DV from Node A
+New DV at Node E is -	1	3	999	1	0	
+--------------------------------
+Round 2: Node B
+Current DV matrix: 
+0	2	999	999	1	
+2	0	5	999	3	
+999	5	0	4	999	
+999	999	4	0	1	
+1	3	999	1	0	
+Last DV matrix: 
+0	2	999	999	1	
+2	0	5	999	999	
+999	5	0	4	999	
+999	999	4	0	1	
+1	999	999	1	0	
+Updated from last DV matrix or the same? Updated
+
+Sending DV to node A
+Node A received DV from Node B
+New DV at Node A is -	0	2	7	999	1	
+
+Sending DV to node C
+Node C received DV from Node B
+New DV at Node C is -	7	5	0	4	8	
+--------------------------------
+Round 3: Node C
+Current DV matrix: 
+0	2	7	999	1	
+2	0	5	999	3	
+7	5	0	4	8	
+999	999	4	0	1	
+1	3	999	1	0	
+Last DV matrix: 
+0	2	999	999	1	
+2	0	5	999	3	
+999	5	0	4	999	
+999	999	4	0	1	
+1	3	999	1	0	
+Updated from last DV matrix or the same? Updated
+
+Sending DV to node B
+Node B received DV from Node C
+New DV at Node B is -	2	0	5	9	3	
+
+Sending DV to node D
+Node D received DV from Node C
+New DV at Node D is -	11	9	4	0	1	
+--------------------------------
+Round 4: Node D
+Current DV matrix: 
+0	2	7	999	1	
+2	0	5	9	3	
+7	5	0	4	8	
+11	9	4	0	1	
+1	3	999	1	0	
+Last DV matrix: 
+0	2	7	999	1	
+2	0	5	999	3	
+7	5	0	4	8	
+999	999	4	0	1	
+1	3	999	1	0	
+Updated from last DV matrix or the same? Updated
+
+Sending DV to Node C
+Node C received DV from Node D
+New DV at Node C is -	7	5	0	4	5	
+
+Sending DV to Node E
+Node E received DV from Node D
+New DV at Node E is -	1	3	5	1	0	
+--------------------------------
+Round 5: Node E
+Current DV matrix: 
+0	2	7	999	1	
+2	0	5	9	3	
+7	5	0	4	5	
+11	9	4	0	1	
+1	3	5	1	0	
+Last DV matrix: 
+0	2	7	999	1	
+2	0	5	9	3	
+7	5	0	4	8	
+11	9	4	0	1	
+1	3	999	1	0	
+Updated from last DV matrix or the same? Updated
+
+Sending DV to Node A
+Node A received DV from Node E
+New DV at Node A is -	0	2	6	2	1	
+
+Sending DV to Node D
+Node D received DV from Node E
+New DV at Node D is -	2	4	4	0	1	
+--------------------------------
+Round 6: Node A
+Current DV matrix: 
+0	2	6	2	1	
+2	0	5	9	3	
+7	5	0	4	5	
+2	4	4	0	1	
+1	3	5	1	0	
+Last DV matrix: 
+0	2	7	999	1	
+2	0	5	9	3	
+7	5	0	4	5	
+11	9	4	0	1	
+1	3	5	1	0	
+Updated from last DV matrix or the same? Updated
+
+Sending DV to node B
+Node B received DV from Node A
+New DV at Node B is -	2	0	5	4	3	
+
+Sending DV to node E
+Node E received DV from Node A
+No change in DV at Node E
+--------------------------------
+Round 7: Node B
+Current DV matrix: 
+0	2	6	2	1	
+2	0	5	4	3	
+7	5	0	4	5	
+2	4	4	0	1	
+1	3	5	1	0	
+Last DV matrix: 
+0	2	6	2	1	
+2	0	5	9	3	
+7	5	0	4	5	
+2	4	4	0	1	
+1	3	5	1	0	
+Updated from last DV matrix or the same? Updated
+
+Sending DV to node A
+Node A received DV from Node B
+No change in DV at Node A
+
+Sending DV to node C
+Node C received DV from Node B
+No change in DV at Node C
+--------------------------------
+Round 8: Node C
+Current DV matrix: 
+0	2	6	2	1	
+2	0	5	4	3	
+7	5	0	4	5	
+2	4	4	0	1	
+1	3	5	1	0	
+Last DV matrix: 
+0	2	6	2	1	
+2	0	5	4	3	
+7	5	0	4	5	
+2	4	4	0	1	
+1	3	5	1	0	
+Updated from last DV matrix or the same? Not Updated
+
+Sending DV to node B
+Node B received DV from Node C
+No change in DV at Node B
+
+Sending DV to node D
+Node D received DV from Node C
+No change in DV at Node D
+--------------------------------
+Round 9: Node D
+Current DV matrix: 
+0	2	6	2	1	
+2	0	5	4	3	
+7	5	0	4	5	
+2	4	4	0	1	
+1	3	5	1	0	
+Last DV matrix: 
+0	2	6	2	1	
+2	0	5	4	3	
+7	5	0	4	5	
+2	4	4	0	1	
+1	3	5	1	0	
+Updated from last DV matrix or the same? Not Updated
+
+Sending DV to Node C
+Node C received DV from Node D
+New DV at Node C is -	6	5	0	4	5	
+
+Sending DV to Node E
+Node E received DV from Node D
+No change in DV at Node E
+--------------------------------
+Round 10: Node E
+Current DV matrix: 
+0	2	6	2	1	
+2	0	5	4	3	
+6	5	0	4	5	
+2	4	4	0	1	
+1	3	5	1	0	
+Last DV matrix: 
+0	2	6	2	1	
+2	0	5	4	3	
+7	5	0	4	5	
+2	4	4	0	1	
+1	3	5	1	0	
+Updated from last DV matrix or the same? Updated
+
+Sending DV to Node A
+Node A received DV from Node E
+No change in DV at Node A
+
+Sending DV to Node D
+Node D received DV from Node E
+No change in DV at Node D
+--------------------------------
+Round 11: Node A
+Current DV matrix: 
+0	2	6	2	1	
+2	0	5	4	3	
+6	5	0	4	5	
+2	4	4	0	1	
+1	3	5	1	0	
+Last DV matrix: 
+0	2	6	2	1	
+2	0	5	4	3	
+6	5	0	4	5	
+2	4	4	0	1	
+1	3	5	1	0	
+Updated from last DV matrix or the same? Not Updated
+
+Sending DV to node B
+Node B received DV from Node A
+No change in DV at Node B
+
+Sending DV to node E
+Node E received DV from Node A
+No change in DV at Node E
+--------------------------------
+Round 12: Node B
+Current DV matrix: 
+0	2	6	2	1	
+2	0	5	4	3	
+6	5	0	4	5	
+2	4	4	0	1	
+1	3	5	1	0	
+Last DV matrix: 
+0	2	6	2	1	
+2	0	5	4	3	
+6	5	0	4	5	
+2	4	4	0	1	
+1	3	5	1	0	
+Updated from last DV matrix or the same? Not Updated
+
+Sending DV to node A
+Node A received DV from Node B
+No change in DV at Node A
+
+Sending DV to node C
+Node C received DV from Node B
+No change in DV at Node C
+--------------------------------
+Round 13: Node C
+Current DV matrix: 
+0	2	6	2	1	
+2	0	5	4	3	
+6	5	0	4	5	
+2	4	4	0	1	
+1	3	5	1	0	
+Last DV matrix: 
+0	2	6	2	1	
+2	0	5	4	3	
+6	5	0	4	5	
+2	4	4	0	1	
+1	3	5	1	0	
+Updated from last DV matrix or the same? Not Updated
+
+Sending DV to node B
+Node B received DV from Node C
+No change in DV at Node B
+
+Sending DV to node D
+Node D received DV from Node C
+No change in DV at Node D
+--------------------------------
+Round 14: Node D
+Current DV matrix: 
+0	2	6	2	1	
+2	0	5	4	3	
+6	5	0	4	5	
+2	4	4	0	1	
+1	3	5	1	0	
+Last DV matrix: 
+0	2	6	2	1	
+2	0	5	4	3	
+6	5	0	4	5	
+2	4	4	0	1	
+1	3	5	1	0	
+Updated from last DV matrix or the same? Not Updated
+
+Sending DV to Node C
+Node C received DV from Node D
+No change in DV at Node C
+
+Sending DV to Node E
+
+--------------------------------
+Final Output
+0	2	6	2	1	
+2	0	5	4	3	
+6	5	0	4	5	
+2	4	4	0	1	
+1	3	5	1	0	
+
+Number of rounds till convergence = 10
+
